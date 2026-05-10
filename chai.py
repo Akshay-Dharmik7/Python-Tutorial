@@ -1,3 +1,4 @@
 from hello_chai import chai
 
-print("ginger tea with me")
+print("ginger tea")
+print("grass tea")
