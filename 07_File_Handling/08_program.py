@@ -7,3 +7,4 @@ file2 = open('07_File_Handling/files/08_this2.txt', 'w')
 file1data = file1.read()
 
 file2.write(file1data)
+
