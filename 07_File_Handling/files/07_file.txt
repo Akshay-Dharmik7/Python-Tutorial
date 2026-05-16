@@ -1,0 +1,5 @@
+Python uses clean syntax that looks like simple English.
+It is the most popular language for learning programming.
+You can run it on Windows, Mac, and Linux systems.
+python powers web development, data science, and AI tools.
+It comes with pre-made code for fast project building.

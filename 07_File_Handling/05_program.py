@@ -10,3 +10,4 @@ for  i in range(2, 21):
         file.write(data)
 
     file.write('---------------------------------------\n')
+    
