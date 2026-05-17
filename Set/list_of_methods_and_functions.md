@@ -105,8 +105,8 @@ Example: s1.intersection_update(s2) or s1 &= s2.
 
 ## 3) difference_update(s2) or -=:
 Remove elements in s2.  
-s1.difference_update(s2) or s1 -= s2.
+Example: s1.difference_update(s2) or s1 -= s2.
 
 ## 4) symmetric_difference_update(s2) or ^=:
 Keep only unique elements.  
-s1.symmetric_difference_update(s2) or s1 ^= s2
+Example: s1.symmetric_difference_update(s2) or s1 ^= s2
