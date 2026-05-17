@@ -1,0 +1,10 @@
+tupledata1 = ( 5, 7, 5, 9, 2, 6, 5, 0)
+tupledata2 = ( 'a', 'z', 'b', 'o', 'e')
+tupledata3 = (0, 0, 0)
+tupledata4 = ('','', '')
+
+# 1) any()
+print(any(tupledata1))
+print(any(tupledata2))
+print(any(tupledata3))
+print(any(tupledata4))
