@@ -59,3 +59,43 @@ Example: d['age'] = 30.
 ## 5) del d[key]:
 Delete a key-value pair.  
 del d['name']
+
+Dictionary Membership & Lookup:
+OperationDescriptionExampleinChecks if key exists'name' in d → Truenot inChecks if key doesn't exist'age' not in d → Trued[key]Access value by keyd['name']d[key] = valueSet/update key-value paird['age'] = 30del d[key]Delete a key-value pairdel d['name']
+
+# Commonly used built-in functions on dictionaries:
+## 1) len(d):
+Number of key-value pairs.  
+Example: len({'a': 1, 'b': 2}) → 2.
+
+## 2) sorted(d):
+Returns sorted list of keys.  
+Example: sorted({'c': 3, 'a': 1}) → ['a', 'c'].
+
+## 3) sorted(d.values()): 
+Sorted list of values.  
+Example: sorted({'a': 3, 'b': 1}.values()) → [1, 3].
+
+## 4) sorted(d.items()):
+Sorted list of key-value pairs.  
+Example: sorted(d.items()). 
+
+## 5) enumerate(d):
+Index-key pairs.  
+Example: for i, k in enumerate(d).
+
+## 6) zip(d.keys(), d.values()): 
+Pairs keys with values.  
+Example: zip(d.keys(), d.values()). 
+
+## 7) dict(iterable):
+Converts iterable to dict.  
+Example: dict([('a', 1), ('b', 2)]).  
+
+## 8) all(d):
+True if all keys are truthy.  
+Example: all({'a': 1, 'b': 0}) → True.
+
+## 9) any(d):
+True if any key is truthy.  
+Example: any({0: 1, 1: 2}) → True
