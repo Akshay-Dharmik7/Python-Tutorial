@@ -65,3 +65,14 @@ Example: all((1, 1, 0)) → False.
 Converts iterable to tuple.  
 Example: tuple([1,2,3])
 
+# Tuple-specific operations:
+### 1) +: Concatenation:
+ (1,2) + (3,4) → (1,2,3,4)
+### 2) *: Repetition:
+(1,2) * 3 → (1,2,1,2,1,2)
+### 3) in: Membership test:
+3 in (1,2,3) → True
+### 4) t[i]: Indexing:
+t[0] → first item
+### 5) t[i:j]: Slicing:
+t[1:3] → subtuple
