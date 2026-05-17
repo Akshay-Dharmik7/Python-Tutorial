@@ -38,3 +38,24 @@ Example: d.setdefault('age', 25).
 ## 10) copy():
 Returns a shallow.  
 Example: copyd2 = d.copy()
+
+# Dictionary Membership & Lookup:
+## 1) in:
+Checks if key exists'name'.  
+Example: in d → True.
+
+## 2) not in:
+Checks if key doesn't exist.  
+Example: 'age' not in d → True. 
+
+## 3) d[key]:
+Access value by key.  
+Example: d['name']. 
+
+## 4) d[key] = value.
+Set/update key-value pair.  
+Example: d['age'] = 30. 
+
+## 5) del d[key]:
+Delete a key-value pair.  
+del d['name']
