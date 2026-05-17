@@ -99,3 +99,16 @@ Example: all({'a': 1, 'b': 0}) → True.
 ## 9) any(d):
 True if any key is truthy.  
 Example: any({0: 1, 1: 2}) → True
+
+# Dictionary Comparison & Merging:
+## 1) ==: Equality check  
+Example: d1 == d2
+
+## 2)!=Inequality check.
+Example: d1 != d2.
+
+## 3) | (Python 3.9+)Merge dictionaries.
+d1 | d2
+
+## 4) |= (Python 3.9+)Update in-place:
+d1 |= d2
