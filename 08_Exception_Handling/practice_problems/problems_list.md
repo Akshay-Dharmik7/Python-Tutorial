@@ -44,11 +44,6 @@ Goal: If the age is less than 18, manually raise a ValueError with a custom mess
 Task: Create a user-defined exception class called InsufficientFundsError. Write a BankAccount class with a withdraw method.  
 Goal: Raise your custom InsufficientFundsError if a withdrawal amount exceeds the current balance. Catch it in your main code block.
 
-## 10. The Nested API Retry Loop
-Task: Simulate fetching data from a flaky network API.  
-Goal: Put a try/except inside a for loop (up to 3 retries). If a simulated ConnectionError happens, print a retry warning, wait a moment, and try again. If it fails all 3 times, raise a final failure exception.
-
-
-# 11. The Password Length Validator
+# 10. The Password Length Validator
 Task: Write a loop that keeps asking a user to create a password.  
 Goal: If the password is shorter than 6 characters, raise a custom message. If it's long enough, use the else block to break out of the loop and say "Password secured!"
