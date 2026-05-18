@@ -12,3 +12,9 @@ try:
     
 except KeyError as e:
     print(f'{e} error occured!!')
+
+    if dict_data.setdefault(userkey, 'defualt') == 'defualt':
+        print(dict_data)
+        print('default key is set!!')
+
+    
