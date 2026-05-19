@@ -3,7 +3,8 @@ import json
 def load_data():
     try:
         with open('youtube.txt', 'r') as file:
-            return json.load(file)
+            test = json.load(file)
+            return test
     except FileNotFoundError:
         return []
 
@@ -12,11 +13,21 @@ def save_data_helper(videos):
         json.dump(videos, file)
 
 def list_all_videos(videos):
+    print('\n')
+    print("*" * 70)
     for index, video in enumerate(videos, start=1):
-        print(f'{index}. ')
+        print(f'{index}. {video['name']}, Duration: {video['time']}')
+    print('\n')
+    print("*" * 70)
+    # for vid in videos:
+    #     print(vid)
 
 def add_video(videos):
-    pass
+    name = input('Enter video name: ')
+    time = input('Enter video time: ')
+    videos.append({'name': name, 'time' : time})
+    save_data_helper(videos)
+
 
 def update_video(videos):
     pass
@@ -35,7 +46,7 @@ def main():
         print('4. Delete a video ')
         print('5. Exit the App')
 
-        choice = input('Enter the choice')
+        choice = input('Enter the choice: ')
 
         match choice:
             case '1':
